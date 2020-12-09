@@ -51,6 +51,8 @@ function setup() {
 
 function draw() {
   background(0);
+  textSize(26)
+  text("vishu",200,200)
   rectMode(CENTER);
  rect(r1.position.x,r1.position.y,100,20)
  rectMode(CENTER);
